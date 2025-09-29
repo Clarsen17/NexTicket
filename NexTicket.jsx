@@ -19,8 +19,8 @@ type Ticket = {
   notes: Note[];
 };
 
-const STORAGE_KEY = "quicket_tickets_v1";
-const STORAGE_CONFIG_KEY = "quicket_config_v1";
+const STORAGE_KEY = "nexticket_tickets_v1";
+const STORAGE_CONFIG_KEY = "nexticket_config_v1";
 
 function generateTicketId(seq: number) {
   const d = new Date();
@@ -286,7 +286,7 @@ export default function TicketingApp() {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <header className="mb-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl md:text-3xl font-bold tracking-tight">Quicket</h1>
+            <h1 className="text-2xl md:text-3xl font-bold tracking-tight">NexTicket</h1>
             <div className="flex items-center gap-2">
               <button
                 onClick={() => setTab("portal")}
@@ -676,8 +676,8 @@ function runTests() {
     const id = generateTicketId(7);
     if (!/^TCK-\d{8}-\d{4}$/.test(id)) throw new Error("bad id format");
     if (!statusPill("Open").includes("indigo")) throw new Error("status pill mapping");
-    console.log("Quicket tests passed");
+    console.log("NexTicket tests passed");
   } catch (e) {
-    console.error("Quicket tests failed", e);
+    console.error("NexTicket tests failed", e);
   }
 }
