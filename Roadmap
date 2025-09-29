@@ -1,0 +1,7 @@
+Planned Updates/Changes: 
+1.) Admin-Defined Priorities (P1–P4)
+    Goal: Admin can manage 4 priority levels and apply them to tickets. Default:
+    P1 – Critical, P2 – High, P3 – Normal, P4 – Low
+2.) UI Cleanup
+3.) SLA rules per priority (e.g., P1 respond ≤ 1h, resolve ≤ 24h)
+4.) Email-to-ticket intake + auto-set default priority
