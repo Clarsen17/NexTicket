@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
-
+// Status types
 type TicketStatus = "Open" | "In Progress" | "On Hold" | "Resolved" | "Closed";
 
 type Note = { id: string; text: string; author?: string; createdAt: string };
-
+// Ticket info
 type Ticket = {
   id: string;
   title: string;
