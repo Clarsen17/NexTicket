@@ -1,0 +1,15 @@
+Planned Updates/Changes: 
+1.) Admin-Defined Priorities (P1–P4)
+    Goal: Admin can manage 4 priority levels and apply them to tickets.
+    P1 – Critical, P2 – High, P3 – Normal, P4 – Low
+2.) UI Cleanup
+    There are parts of the UI Id like to clean up, for example on the admin side some texts gets cut off
+3.) SLA rules per priority (e.g., P1 respond ≤ 1h, resolve ≤ 24h)
+    An estimated resolve time based off of the priority assigned to the ticket.
+4.) Email-to-ticket intake
+    Be able to send an email to make a ticket
+5.) Email ticket updates to the subject
+    Email the subject of the ticket when the status of their ticket is updated for example when a ticket is closed -> send a email stating the ticket has been closed
+6.) Close/Resolve Reason
+    When a ticket is closed, add a reason
+
