@@ -5,3 +5,5 @@ Planned Updates/Changes:
 2.) UI Cleanup
 3.) SLA rules per priority (e.g., P1 respond ≤ 1h, resolve ≤ 24h)
 4.) Email-to-ticket intake + auto-set default priority
+5.) Email ticket updates to the subject
+
