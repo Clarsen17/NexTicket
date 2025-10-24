@@ -1,5 +1,5 @@
 Planned Updates/Changes: 
-1.) Admin-Defined Priorities (P1–P4)
+1.) Admin-Defined Priorities (P1–P4) - Done
     Goal: Admin can manage 4 priority levels and apply them to tickets.
     P1 – Critical, P2 – High, P3 – Normal, P4 – Low
 2.) UI Cleanup
